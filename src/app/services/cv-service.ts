@@ -16,9 +16,9 @@ export class CvService {
   public cvObservable$ = this.cvSubject.asObservable();
 
   public cvs: Cv[] = [
-    new Cv(0, "Raach", "Chaima", 23, 11111111, "Student", "assets/images/rotating_card_profile.png"),
-    new Cv(1, "Ghaouari", "Koussay", 21, 22222222, "Student", "assets/images/rotating_card_profile2.png"),
-    new Cv(2, "mansour", "wajdi", 22, 33333333, "Student", "assets/images/rotating_card_profile3.png"),
+    new Cv(0, "Arfaoui", "Bassem", 23, 11111111, "Student", "assets/images/rotating_card_profile.png"),
+    new Cv(1, "Limam", "chaima", 21, 22222222, "Student", "assets/images/rotating_card_profile2.png"),
+    new Cv(2, "charni", "rim", 22, 33333333, "Student", "assets/images/rotating_card_profile3.png"),
   ];
 
   constructor(private http: HttpClient, private toastr: ToastrService) { }
